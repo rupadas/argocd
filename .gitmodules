@@ -1,0 +1,6 @@
+[submodule "node-sample"]
+	path = node-sample
+	url = https://github.com/rupadas/node-sample
+[submodule "go-sample"]
+	path = go-sample
+	url = https://github.com/rupadas/go-sample
