@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mygoapp
+spec:
+  selector:
+    matchLabels:
+      app: mygoapp
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: mygoapp
+    spec:
+      containers:
+      - name: mygoapp
+        image: rupadas/sample-go-app
+        ports:
+        - containerPort: 8087
