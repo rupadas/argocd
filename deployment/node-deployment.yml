@@ -16,4 +16,4 @@ spec:
       - name: mynodeapp
         image: rupadas/sample-node-app
         ports:
-        - containerPort: 8088
+        - containerPort: 3037
