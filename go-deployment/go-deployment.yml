@@ -16,4 +16,4 @@ spec:
       - name: mygoapp
         image: rupadas/sample-go-app
         ports:
-        - containerPort: 8087
+        - containerPort: 8084
