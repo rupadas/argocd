@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: local
+    repoURL: https://github.com/rupadas/argocd
     targetRevision: HEAD
     path: hello
   destination:
