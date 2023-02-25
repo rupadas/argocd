@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mynodeapp
-        image: rupadas/sample-node-app
+        image: rupadas/sample-node-app:latest
         ports:
         - containerPort: 3037
