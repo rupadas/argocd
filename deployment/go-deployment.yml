@@ -15,5 +15,6 @@ spec:
       containers:
       - name: mygoapp
         image: rupadas/sample-go-app:latest
+        imagePullPolicy: Aways
         ports:
         - containerPort: 8084

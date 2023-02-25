@@ -15,5 +15,6 @@ spec:
       containers:
       - name: mynodeapp
         image: rupadas/sample-node-app:latest
+        imagePullPolicy: Aways
         ports:
         - containerPort: 3037
